@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void playAgain(View view){
-        goButton.setVisibility(View.VISIBLE);
+        //goButton.setVisibility(View.VISIBLE);
         score=0;
         numberOfQuestions=0;
         timerTextView.setText("30s");
@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
         resultTextView=findViewById(R.id.resultTextView);
         scoreTextView=findViewById(R.id.scoreTextView);
 
-        goButton.setVisibility(View.VISIBLE);
+        //goButton.setVisibility(View.VISIBLE);
         playAgain(findViewById(R.id.timerTextView));
         newQuestion();
 
